@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/a"
-    tools:context=".Question">
+    tools:context=".Questions">
 
     <TextView
         android:id="@+id/textView2"
@@ -16,11 +16,11 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/point2"
+        android:id="@+id/point"
         android:layout_width="187dp"
         android:layout_height="29dp"
-        android:layout_alignEnd="@+id/textView5"
         android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView2"
         android:paddingBottom="5dp"
         android:paddingLeft="10dp"
         android:text="0"
@@ -28,57 +28,58 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/q2"
+        android:id="@+id/question"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginBottom="30dp"
         android:layout_marginTop="155dp"
         android:background="@android:color/holo_red_dark"
         android:gravity="center"
-        android:text="Who scored the maximum runs in World Cup 2011?"
+        android:text="uisfsuadgf"
         android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/opt21"
+        android:id="@+id/option1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/question"
         android:layout_marginBottom="10dp"
         android:background="@android:color/holo_blue_light"
-        android:onClick="Question"
+        android:onClick="question"
         android:tag="1"
-        android:text=" Tillakaratne Dilshan" />
+        android:text="ayu7ftadf" />
 
     <Button
-        android:id="@+id/opt23"
+        android:id="@+id/option3"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/opt22"
+        android:layout_below="@+id/option2"
         android:layout_marginBottom="10dp"
         android:background="@android:color/holo_blue_light"
-        android:onClick="Question"
+        android:onClick="question"
         android:tag="3"
-        android:text=" Kumar Sangakkara" />
+        android:text="fuilgfyus" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/title"
         android:layout_width="144dp"
         android:layout_height="47dp"
-        android:layout_above="@+id/q2"
+        android:layout_above="@+id/question"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="-155dp"
         android:background="#455154"
         android:gravity="center"
-        android:text=" Question 2"
+        android:text="ifuasdiof"
         android:textColor="@android:color/white" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/timer"
         android:layout_width="40dp"
         android:layout_height="32dp"
         android:layout_alignParentTop="true"
@@ -89,27 +90,27 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/option4"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/opt23"
+        android:layout_below="@+id/option3"
         android:background="@android:color/holo_blue_light"
-        android:onClick="Question"
+        android:onClick="question"
         android:tag="4"
-        android:text=" Gautam Gambhir" />
+        android:text="asjkfasuiof" />
 
     <Button
-        android:id="@+id/opt22"
+        android:id="@+id/option2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/opt21"
+        android:layout_below="@+id/option1"
         android:layout_marginBottom="10dp"
         android:background="@android:color/holo_blue_light"
-        android:onClick="Question"
+        android:onClick="question"
         android:tag="2"
-        android:text="Sachin Tendulkar " />
+        android:text="jfhauifh" />
 
     <Button
         android:id="@+id/button7"
@@ -118,9 +119,21 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/holo_orange_dark"
-        android:onClick="Next"
-        android:text="Next" />
+        android:onClick="Play"
+        android:text="Next"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="221dp"
+        android:layout_height="53dp"
+        android:layout_alignBottom="@+id/timer"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/background_dark"
+        android:gravity="center"
+        android:text="ELIMINATED!!         CLICK NEXT TO CONTINUE....."
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:visibility="invisible" />
 </RelativeLayout>
-
-
 

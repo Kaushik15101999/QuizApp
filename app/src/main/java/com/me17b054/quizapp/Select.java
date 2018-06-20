@@ -14,7 +14,7 @@ public class Select extends AppCompatActivity {
     }
     public void Sports(View view)
     {
-        Intent Sports =new Intent(Select.this,Question.class);
+        Intent Sports =new Intent(Select.this,Questions.class);
         startActivity(Sports);
     }
 }

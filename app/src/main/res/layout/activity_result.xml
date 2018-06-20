@@ -32,4 +32,16 @@
         android:textColor="@android:color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/holo_purple"
+        android:onClick="PlayAgain"
+        android:text="Play Again!!"
+        android:textStyle="bold" />
 </RelativeLayout>
