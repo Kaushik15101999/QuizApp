@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'Kaushik Chettiar'
+            keyPassword 'Quiz App'
+            storeFile file('/scratch/dcf/android-studio/bin/studio.sh')
+            storePassword 'Kc@15101999'
+        }
+    }
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.me17b054.quizapp"
@@ -20,7 +28,7 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     testImplementation 'junit:junit:4.12'

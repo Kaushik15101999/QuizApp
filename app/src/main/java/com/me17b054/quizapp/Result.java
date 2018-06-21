@@ -3,6 +3,7 @@ package com.me17b054.quizapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.content.SharedPreferences;
@@ -22,8 +23,8 @@ public class Result extends AppCompatActivity {
         highscore = sp.getInt("max_score", 0);
 
     int point=0;
-    Bundle extras=getIntent().getExtras();
-    int point1=extras.getInt("point",point);
+
+    int point1=getIntent().getIntExtra("point",point);
     if(point1>highscore)
         {
             highscore=point1;
@@ -72,9 +73,16 @@ else
     }
     public void Reset(View view)
     {
+
+        TextView points=(TextView)findViewById(R.id.textView7);
+        int point=Integer.parseInt(points.getText().toString());
         Intent intent =new Intent(Result.this,ResetHighScore.class);
+
+        intent.putExtra("point",point);
         startActivity(intent);
-}
+        Log.d("Points","Value"+point);
+
+    }
 
 
 }

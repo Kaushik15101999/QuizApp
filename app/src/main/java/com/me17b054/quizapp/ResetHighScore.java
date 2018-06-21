@@ -3,9 +3,11 @@ package com.me17b054.quizapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.SharedPreferences;
+import android.util.Log;
 import android.view.View;
 import android.content.Intent;
 import android.os.CountDownTimer;
+import android.widget.TextView;
 
 public class ResetHighScore extends AppCompatActivity {
     SharedPreferences.Editor editor;
@@ -32,11 +34,15 @@ public class ResetHighScore extends AppCompatActivity {
     }
     public void NO(View view)
     {
+        int point=0;
+
+        int point2=getIntent().getIntExtra("point",point);
+        Log.d("Points","Value"+point2);
+
         Intent next=new Intent(ResetHighScore.this,Result.class);
 
-        android.widget.TextView points=(android.widget.TextView)findViewById(R.id.point);
-            int point2=Integer.parseInt(points.getText().toString());
+
             next.putExtra("point",point2);
-            startActivity(next);
-    }
-}
+                    startActivity(next);
+                    }
+                    }

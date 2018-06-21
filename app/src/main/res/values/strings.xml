@@ -31,6 +31,21 @@
         </item>
         <item>Who is the current head coach of the Delhi Daredevils?</item>
         <item>Who is the new captain of the Kolkata Knight Riders?</item>
+        <item>Where was the first cricket world cup (50 over format) held?</item>
+        <item>Which of the following term is not related to the cricket?</item>
+        <item>Who was the winner of first T-20  Cricket world cup</item>
+        <item>What is the length of cricket crease?</item>
+        <item>Whose autobiography is “Playing it my way”?</item>
+        <item>Which cricketer has recorded maximum sixes in international cricket?</item>
+        <item>Which Indian cricketer has recorded maximum sixes in international cricket?</item>
+        <item>Which Sri Lankan cricketer has recorded maximum sixes in international cricket?</item>
+        <item>Which South African cricketer has recorded maximum sixes in international cricket?</item>
+        <item>Number of sixes recorded by Sachin Tendulkar in international cricket?</item>
+        <item>Which Australian cricketer has recorded maximum sixes in international cricket?</item>
+        <item>Which Windies cricketer has recorded maximum sixes in international cricket?</item>
+        <item>Which New Zealand cricketer has recorded maximum sixes in international cricket?</item>
+        <item>Who cricketer has recorded maximum sixes in Test cricket?</item>
+        <item>Which cricketers have recorded more than 100 sixes in Test cricket?</item>
     </array>
     <array name="OPTION1">
         <item>Virender Sehwag</item>
@@ -59,6 +74,22 @@
         <item>Delhi</item>
         <item>Virender Sehwag</item>
         <item>M.S. Dhoni</item>
+        <item>Australia</item>
+        <item>Pitch</item>
+        <item>Australia</item>
+        <item>3 feet</item>
+        <item>Vinod kambli</item>
+        <item>Sanath Jayasuriya</item>
+        <item>Yuvraj Singh</item>
+        <item>Tillakaratne Dilshan</item>
+        <item>Jacques Kallis</item>
+        <item>375 sixes</item>
+        <item>Ricky Ponting</item>
+        <item>Viv Richards</item>
+        <item>Martin Guptill</item>
+        <item>Adam Gilchrist</item>
+        <item>Brendon McCullum and Chris Cranes</item>
+
     </array>
     <array name="OPTION2">
         <item>Chris Gayle</item>
@@ -87,6 +118,21 @@
         <item>Pune</item>
         <item>Rahul Dravid</item>
         <item>Dinesh Karthik</item>
+        <item>West indies</item>
+        <item>Wide</item>
+        <item>West Indies</item>
+        <item>4 feet</item>
+        <item>Sachin Tendulkar</item>
+        <item>Chris Gayle</item>
+        <item>Sachin Tendulkar</item>
+        <item>Kumar Sangakkara</item>
+        <item>Lance Klusener</item>
+        <item>300 sixes</item>
+        <item>Matthew Hayden</item>
+        <item>Brian Lara</item>
+        <item>Martin Crow</item>
+        <item>Brendon McCullum</item>
+        <item>Brendon McCullum and Jacques Kallis</item>
     </array>
     <array name="OPTION3">
         <item>Martin Guptill</item>
@@ -115,6 +161,21 @@
         <item>Mumbai</item>
         <item>Ricky Ponting</item>
         <item>Robin Uthappa</item>
+        <item>England</item>
+        <item>Popping Crease</item>
+        <item>India</item>
+        <item>5 feet</item>
+        <item>Kapil Dev</item>
+        <item>Sachin Tendulkar</item>
+        <item>Virender Sehwag</item>
+        <item>Sanath Jayasuriya</item>
+        <item>JP Duminy</item>
+        <item>260 sixes</item>
+        <item>Adam Gilchrist</item>
+        <item>Chris Gayle</item>
+        <item>Chris Cairns</item>
+        <item>Chris Gayle</item>
+        <item>Brendon McCullum and Chris Gayle</item>
     </array>
     <array name="OPTION4">
         <item>Rohit Sharma</item>
@@ -143,6 +204,23 @@
         <item>Hyderabad</item>
         <item>Pravin Amre</item>
         <item>Ajinkya Rahane</item>
+        <item>England and Australia (Combined)</item>
+        <item>Dribbling</item>
+        <item>Pakistan</item>
+        <item>3.5 feet</item>
+        <item>Ravi Shashtri</item>
+        <item>Shahid Afridi</item>
+        <item>Mahendra Singh Dhoni</item>
+        <item>Mahela Jayawardene</item>
+        <item>AB de Villiers</item>
+        <item>264 sixes</item>
+        <item>Shane Watson</item>
+        <item>Kieron Pollard</item>
+        <item>Brendon McCullum</item>
+        <item>Chris Gayle</item>
+        <item>Brendon McCullum and Chris Gayle</item>
+
+
 
     </array>
 
@@ -173,6 +251,21 @@
         <item>4</item>
         <item>3</item>
         <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+        <item>4</item>
 
 
     </array>
