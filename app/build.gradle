@@ -3,9 +3,9 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         config {
-            keyAlias 'Kaushik Chettiar'
-            keyPassword 'Quiz App'
-            storeFile file('/scratch/dcf/android-studio/bin/studio.sh')
+            keyAlias 'QuizApp'
+            keyPassword 'Kc@15101999'
+            storeFile file('KaushikChettiar')
             storePassword 'Kc@15101999'
         }
     }
