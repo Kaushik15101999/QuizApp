@@ -47,7 +47,7 @@ public class Questions extends AppCompatActivity {
         Option4=getResources().getStringArray(R.array.OPTION4);
         Answer=getResources().getIntArray(R.array.ANSWERS);
         r = new Random();
-        count = r.nextInt(9 - 0) + 0;
+        count = r.nextInt( 26- 0) + 0;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questions);
         TextView number=(TextView)findViewById(R.id.title);
@@ -98,7 +98,14 @@ public class Questions extends AppCompatActivity {
         };count1.start();
 
     }
-
+    public void Quit(View view)
+    {
+      Intent next=new Intent(Questions.this,Result.class);
+            TextView points=(TextView)findViewById(R.id.point);
+            int point=Integer.parseInt(points.getText().toString());
+            next.putExtra("point",point);
+            startActivity(next);
+}
 
     public void question(View view)
     {
@@ -146,12 +153,7 @@ public class Questions extends AppCompatActivity {
     public void onBackPressed() { }
     public void Play(View view)
     {
-        Question= getResources().getStringArray(R.array.Question);
-        Option1=getResources().getStringArray(R.array.OPTION1);
-        Option2=getResources().getStringArray(R.array.OPTION2);
-        Option3=getResources().getStringArray(R.array.OPTION3);
-        Option4=getResources().getStringArray(R.array.OPTION4);
-        Answer=getResources().getIntArray(R.array.ANSWERS);
+
         TextView myquestion =(TextView)findViewById(R.id.question);
         TextView myoption1 =(TextView)findViewById(R.id.option1);
         TextView myoption2 =(TextView)findViewById(R.id.option2);
@@ -159,7 +161,7 @@ public class Questions extends AppCompatActivity {
         TextView myoption4 =(TextView)findViewById(R.id.option4);
         if(gamefinish==0)
         {
-                count = r.nextInt(9 - 0) + 0;
+                count = r.nextInt(26 - 0) + 0;
                 i++;
                 gameend=0;
                 TextView number=(TextView)findViewById(R.id.title);
@@ -215,4 +217,5 @@ public class Questions extends AppCompatActivity {
         }
     }
     }
+
 

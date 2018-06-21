@@ -17,4 +17,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent =new Intent(MainActivity.this,Select.class);
         startActivity(intent);
     }
-}
+    public void Play(View view)
+    {
+
+        Intent intent =new Intent(MainActivity.this,Rules.class);
+        startActivity(intent);
+  }
+  }
