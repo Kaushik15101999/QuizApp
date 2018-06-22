@@ -67,7 +67,6 @@ else
         points.setText(point2);
     }
     public void onBackPressed() {
-        System.exit(0);
 
     }
     public void PlayAgain(View view)
