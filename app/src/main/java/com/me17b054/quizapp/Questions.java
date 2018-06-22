@@ -47,7 +47,7 @@ public class Questions extends AppCompatActivity {
         Option4=getResources().getStringArray(R.array.OPTION4);
         Answer=getResources().getIntArray(R.array.ANSWERS);
         r = new Random();
-        count = r.nextInt( 41- 0) + 0;
+        count = r.nextInt( 46- 0) + 0;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questions);
         TextView number=(TextView)findViewById(R.id.title);
@@ -161,7 +161,7 @@ public class Questions extends AppCompatActivity {
         TextView myoption4 =(TextView)findViewById(R.id.option4);
         if(gamefinish==0)
         {
-                count = r.nextInt(41 - 0) + 0;
+                count = r.nextInt(46 - 0) + 0;
                 i++;
                 gameend=0;
                 TextView number=(TextView)findViewById(R.id.title);
