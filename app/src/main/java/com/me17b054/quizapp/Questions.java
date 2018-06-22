@@ -51,7 +51,7 @@ public class Questions extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questions);
         TextView number=(TextView)findViewById(R.id.title);
-        number.setText("Questions 1");
+        number.setText("Question 1");
         TextView myquestion =(TextView)findViewById(R.id.question);
         TextView myoption1 =(TextView)findViewById(R.id.option1);
         TextView myoption2 =(TextView)findViewById(R.id.option2);
@@ -165,7 +165,7 @@ public class Questions extends AppCompatActivity {
                 i++;
                 gameend=0;
                 TextView number=(TextView)findViewById(R.id.title);
-                number.setText("Questions "+(i+1));
+                number.setText("Question "+(i+1));
                 Button b1=(Button)findViewById(R.id.option4);
                 b1.setBackgroundColor(Color.parseColor("#FF33B5E5"));
                 Button b2=(Button)findViewById(R.id.option3);

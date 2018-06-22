@@ -1,5 +1,6 @@
 package com.me17b054.quizapp;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -65,7 +66,10 @@ else
         String point2=(String)Integer.toString(point1);
         points.setText(point2);
     }
-    public void onBackPressed() { }
+    public void onBackPressed() {
+        System.exit(0);
+
+    }
     public void PlayAgain(View view)
     {
         Intent intent =new Intent(Result.this,Select.class);

@@ -46,6 +46,11 @@
         <item>Which New Zealand cricketer has recorded maximum sixes in international cricket?</item>
         <item>Who cricketer has recorded maximum sixes in Test cricket?</item>
         <item>Which cricketers have recorded more than 100 sixes in Test cricket?</item>
+        <item>Cricketer who had taken hat-trick wickets in their first three balls in a Test match?</item>
+        <item>Cricketer who had taken hat-trick wickets in the first over of a Test match?</item>
+        <item>First Indian cricketer who had taken hat-trick wicket in Test cricket?</item>
+        <item>Cricketers who had taken hat-trick wickets in their first Test match?</item>
+        <item>Cricketers who had taken hat-trick wickets in their final Test match?</item>
     </array>
     <array name="OPTION1">
         <item>Virender Sehwag</item>
@@ -89,6 +94,11 @@
         <item>Martin Guptill</item>
         <item>Adam Gilchrist</item>
         <item>Brendon McCullum and Chris Cranes</item>
+        <item>Matthew Hoggard (England)</item>
+        <item>Alok Kapali (Bangladesh)</item>
+        <item>Irfan Pathan</item>
+        <item>Fred Spofforth (Australia) and Billy Bates (England)</item>
+        <item>Alok Kapali (Bangladesh) and Lance Gibbs (Windies)</item>
 
     </array>
     <array name="OPTION2">
@@ -133,6 +143,11 @@
         <item>Martin Crow</item>
         <item>Brendon McCullum</item>
         <item>Brendon McCullum and Jacques Kallis</item>
+        <item>Rangana Herath (Sri Lanka)</item>
+        <item>James Franklin (New Zealand)</item>
+        <item>Harbhajan Singh</item>
+        <item>Hugh Trumble (Australia) and Lance Gibbs (Windies)</item>
+        <item>Glenn McGrath (Australia) and Wasim Akram (Pakistan)</item>
     </array>
     <array name="OPTION3">
         <item>Martin Guptill</item>
@@ -176,6 +191,11 @@
         <item>Chris Cairns</item>
         <item>Chris Gayle</item>
         <item>Brendon McCullum and Chris Gayle</item>
+        <item>Irfan Pathan (India)</item>
+        <item>Wasim Akram (Pakistan)</item>
+        <item>Kapil Dev</item>
+        <item>Damien Fleming (Australia), Courtney Walsh (Windies) and Shane Warne (Australia)</item>
+        <item>Darren Gough (England) and Dominic Cork (England)</item>
     </array>
     <array name="OPTION4">
         <item>Rohit Sharma</item>
@@ -217,8 +237,13 @@
         <item>Shane Watson</item>
         <item>Kieron Pollard</item>
         <item>Brendon McCullum</item>
-        <item>Chris Gayle</item>
-        <item>Brendon McCullum and Chris Gayle</item>
+        <item>Jack Kallis</item>
+        <item>Brendon McCullum and Adam Gilchrist</item>
+        <item>Nuwan Zoysa (Sri Lanka)</item>
+        <item>Irfan Pathan (India)</item>
+        <item>Anil Kumble</item>
+        <item>Maurice Allom (England), Peter Patherick (New Zealand) and Damien Fleming (Australia)</item>
+        <item>Hugh Trumble (Australia) and Geoff Griffin (South Africa)</item>
 
 
 
@@ -265,6 +290,11 @@
         <item>3</item>
         <item>4</item>
         <item>2</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>2</item>
+        <item>4</item>
         <item>4</item>
 
 
